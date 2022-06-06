@@ -5,30 +5,32 @@ const PORT = 8000
 
 app.use(cors())
 
-const tea = {
-    'oolong':{
-        'type': 'black',
-        'origin': 'Yo mommas HOuse',
-        'waterTemp': 200,
-        'steepTimeSeconds': 180,
-        'caffinated': true,
-        'flavor': 'delicious'
+// would i also use the triple dot syntax here for repeating information??
+
+const goosebumpsBooks = {
+    'monster blood':{
+        'published': 'September 1992',
+        'author': 'R.L. Stine',
+        'ISBN': 978059045367,
+        'pages': 128,
+        'fan favorite': true,
+        'series number': '3'
     },
-    'matcha':{
-        'type': 'green',
-        'origin': 'Yo mommas HOuse',
-        'waterTemp': 200,
-        'steepTimeSeconds': 180,
-        'caffinated': false,
-        'flavor': 'delicious'
+    'Welcome to Dead House':{
+        'published': 'July 1992',
+        'author': 'R.L. Stine',
+        'ISBN': 0590453653,
+        'pages': 123,
+        'fan favorite': true,
+        'series number': '1'
     },
-    'unknown':{
-        'type': 'unknown',
-        'origin': 'unknown',
-        'waterTemp': 0,
-        'steepTimeSeconds': 0,
-        'caffinated': false,
-        'flavor': 'unknown'
+    'Stay Out of the Basement':{
+        'published': 'July 1992',
+        'author': 'R.L. Stine',
+        'ISBN': 9780439568456,
+        'pages': 122,
+        'fan favorite': true,
+        'series number': '2'
     }
 }
 
